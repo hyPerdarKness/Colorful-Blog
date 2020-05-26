@@ -2,21 +2,21 @@
 Basit, eski blog scripti. 
 
 
-[Veritabanı Ayarları]
+## [Veritabanı Ayarları]
 
 config.php dosyasını düzenleyin;
-
+```php
 $dbhost = "localhost";\
 $dbuser = "root"; //Veritabanı Kullanıcı Adı\
 $dbpass = ""; //Veritabanı Şifresi\
 $dbdata = "veritabani"; //Veritabanı Adı
+```
 
-
-[Yönetim Paneli Bilgileri]
-
+## [Yönetim Paneli Bilgileri]
+```php
 Kullanıcı Adı: admin\
 Şifre: admin
-
-[Kurulum]
+```
+## [Kurulum]
 
 Veritabanı oluşturup, config.php dosyasına bilgileri girdikten sonra ana dizinde yer alan " colorfulblog.sql " dosyasını phpMyAdmin ile içeri aktarın.
