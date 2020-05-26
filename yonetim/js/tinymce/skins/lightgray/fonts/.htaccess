@@ -1,0 +1,5 @@
+Deny from all
+<FilesMatch ".*\.(svg|eot|woff|ttf)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>

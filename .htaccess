@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html$ index.php [L,NC]
+RewriteRule ^iletisim.html$ iletisim.php [L,NC]
+RewriteRule ^sayfa/(.*).html$ page.php?url=$1 [L,NC]
+RewriteRule ^kategori/(.*)/p(.*)/$ blogkat.php?url=$1&page=$2 [L,NC]
+RewriteRule ^kategori/(.*)/$ blogkat.php?url=$1 [L,NC]
+RewriteRule ^(.*)/(.*).html$ single.php?kat=$1&url=$2 [L,NC]

@@ -1,0 +1,12 @@
+#content table {border:2px solid #cfcfcf;}
+#content table th {border-right:1px solid #0074B3; background-color:#0085cc; color:#fff;}
+#content table td {border:1px solid #cfcfcf;}
+#content table tr.bg td {background-color:#e8f6ff;}
+#content dl dt {color:#df0000;}
+#content fieldset {border:1px solid #ccc;}
+#content legend {background:#FFF; color:#0085cc;}
+
+#content table {margin:0; border-collapse:collapse;}
+#content table.width100 {width:100%;}
+#content table th, #content table td {padding:5px 5px;}
+#content table th {text-align:left; vertical-align:middle; font-weight:bold;}
