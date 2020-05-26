@@ -13,7 +13,7 @@ $dbdata = "veritabani"; //Veritabanı Adı
 ```
 
 ## Yönetim Paneli Bilgileri
-```php
+```
 Kullanıcı Adı: admin
 Şifre: admin
 ```
